@@ -52,7 +52,8 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    color: #00000047;
+    color: #ffffff14;
+    background-position-y: 30%;
 }
 
 .showcase p {
@@ -138,6 +139,12 @@ body {
     margin-top: 0;
 
 
+}
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
 }
 .course-four {}
 
