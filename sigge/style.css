@@ -572,3 +572,9 @@ Fallback
 .no-csstransforms3d .movie .poster, .no-csstransforms3d .movie .info {
     position: relative;
 }
+@media screen and (max-width:1455px){
+    body {
+        scroll-snap-type: none;
+    }
+
+}
