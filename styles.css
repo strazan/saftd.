@@ -117,6 +117,9 @@ body {
 }
 
 .course-one {
+    background-image: url("https://scontent-arn2-1.xx.fbcdn.net/v/t1.15752-9/s2048x2048/70391948_382262116001079_7319698233251332096_n.jpg?_nc_cat=103&_nc_oc=AQmFa24eLCHuQOA_huNwR5j7MIT6Xz5d5YNYEI5YDzAwN4UkBS9U7oNfDwzm1c2fIjk&_nc_ht=scontent-arn2-1.xx&oh=085a2b135e0d598d301ee50b0beb7263&oe=5DF57190");
+    background-size: cover;
+    background-position: 40%;
 
 }
 
