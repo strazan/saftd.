@@ -96,7 +96,7 @@ body {
     padding-top: 5%;
     padding-right: 40%;
     padding-bottom: 100%;
-    background: -webkit-linear-gradient( rgba(0, 0, 0, 0.303), #0000001d);
+    background: -webkit-linear-gradient( rgba(0, 0, 0, 0.454), #00000025);
     transform: rotate(20deg);
 }
 
@@ -185,7 +185,7 @@ a {
     }
 
     .course p  {
-        font-size: calc(0.8rem + 0.3vh + 0.3vw);
+        font-size: calc(0.8rem + 0.3vh + 0.5vw);
     }
 
     .course {
