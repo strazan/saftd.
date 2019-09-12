@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: start;
-    height: 100vh;
+    min-height: 100vh;
     width: auto;
     padding: 5%;
     background-attachment: fixed;
@@ -84,7 +84,7 @@ body {
 .course p {
     width: auto;
     text-align: center;
-    font-size: 1.4rem;
+  font-size: 5vw;
     color: rgb(255, 255, 255);
     font-weight: 200;
     transform: rotate(-20deg);
@@ -96,7 +96,7 @@ body {
     padding-top: 5%;
     padding-right: 40%;
     padding-bottom: 100%;
-    background: -webkit-linear-gradient( #0000009c, #00000049);
+    background: -webkit-linear-gradient( rgba(0, 0, 0, 0.303), #0000001d);
     transform: rotate(20deg);
 }
 
@@ -117,18 +117,30 @@ body {
 }
 
 .course-one {
-    background-image: url("https://www.modernamuseet.se/stockholm/wp-content/uploads/sites/3/2019/01/aj_monster_1988_1000x1500-653x980.jpg");
-    background-size: cover;
-    filter: brightness(-5);
-    background-position: bottom;
+
 }
 
 .course-two {
-    background-color: salmon;
+    background-image: url("august/img/boat.jpg");
+    background-size: cover;
 }
 
 .course-three {
-    background-color: mediumseagreen;
+    background-image: url("https://files.slack.com/files-pri/TMACKGYQH-FNBRYV97H/starling.jpg");
+    background-size: cover;
+    background-position: 70%;
+  
+}
+.course-four {
+    background-image: url("https://files.slack.com/files-pri/TMACKGYQH-FMX7TU45Q/ska__rmavbild_2019-09-12_kl._16.18.41.png");
+    background-size: cover;
+}
+
+.course-five {
+    background-image: url("https://i.pinimg.com/564x/18/b3/05/18b305849c22b211ce52beb7cc569d88.jpg");
+    background-size: cover;
+    /* filter: brightness(-5); */
+    background-position: bottom;
 }
 
 .courses-header {
@@ -136,7 +148,6 @@ body {
     /* visibility: hidden; */
     font-weight: 200;
     font-size: 7vh;
-    margin-top: 0;
 
 
 }
@@ -155,30 +166,31 @@ a {
         scroll-snap-type: none;
         scroll-behavior: unset;
     }
-    .showcase {
-        /* padding-left: 20%; */
-    }
-    .header {
-        font-size: 3rem;
+
+    .course-header h2 {
+        font-size: 2rem;
     }
 
     .courses-header {
         visibility: visible;
-        /* font-weight: 600; */
         font-size: 7vh;
     }
+
     .course-overview {
         display: flex;
-        /* height: 100vh; */
         max-width: 1335;
         flex-flow: row wrap;
         padding: 0 5%;
         justify-items: center;
     }
+
+    .course p  {
+        font-size: calc(0.8rem + 0.3vh + 0.3vw);
+    }
+
     .course {
         flex: 0 0 25vw;
         min-width: 400px;
-
         display: flex;
         flex-direction: column;
         margin: 0 0 1rem 1rem;
